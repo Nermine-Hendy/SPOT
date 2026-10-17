@@ -1,0 +1,6 @@
+function E = enu(lat,lon)
+%ENU Columns: east, north, geodetic up, in ECEF.
+E=[-sind(lon) -sind(lat)*cosd(lon) cosd(lat)*cosd(lon); ...
+    cosd(lon) -sind(lat)*sind(lon) cosd(lat)*sind(lon); ...
+    0 cosd(lat) sind(lat)];
+end

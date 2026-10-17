@@ -1,0 +1,41 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# MATLAB temporary/build files
+*.asv
+*.m~
+slprj/
+codegen/
+
+# Generated results
+**/Outputs/*
+!**/Outputs/.gitkeep
+**/Verification/matlab_fixtures/
+**/Verification/matlab_parity_results.json
+
+# Local environment configuration
+.env
+.env.*
+!.env.example

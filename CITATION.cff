@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this software and identify the repository release or commit used in your work."
+type: software
+title: "SPOT: Optical Imaging Emulation Framework for Space Domain Awareness"
+authors:
+  - family-names: Hendy
+    given-names: Nermine
+  - family-names: Wang
+    given-names: Ke
+  - family-names: Sithamparanathan
+    given-names: Kandeepan
+  - family-names: Al-Hourani
+    given-names: Akram
+license: MIT
+keywords:
+  - space domain awareness
+  - optical imaging
+  - simulation
+  - synthetic data
+  - MATLAB
+  - Python
